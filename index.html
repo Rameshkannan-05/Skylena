@@ -72,5 +72,16 @@
       <p>Email: info@xyzcollege.edu</p>
       <p>Phone: +91 98765 43210</p>
     </footer>
+
+    <script>
+      document.querySelectorAll(".toggle-btn").forEach((button) => {
+        button.addEventListener("click", () => {
+          const details = button.nextElementSibling;
+          const isVisible = details.style.display === "block";
+          details.style.display = isVisible ? "none" : "block";
+          button.textContent = isVisible ? "Show Details" : "Hide Details";
+        });
+      });
+    </script>
   </body>
 </html>
