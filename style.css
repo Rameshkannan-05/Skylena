@@ -164,3 +164,8 @@ footer h2 {
 .toggle-btn:hover {
   background-color: #e6c200;
 }
+#datetime {
+  font-size: 1rem;
+  margin-top: 10px;
+  color: #FFD700;
+}
